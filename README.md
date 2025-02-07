@@ -1,63 +1,143 @@
-# GKCSearch
+# GKC Kratom Bans
 
-GKCSearch is a web dashboard for checking whether kratom is banned or regulated in a given area. It pulls ban data from a Google Sheets CSV (cached for 12 hours) and provides supplemental information (links and previews) based on area tags (zip codes, cities, or states). 
+[GKC Kratom Bans](https://github.com/saintpetejackboy/GKC-Kratom-Bans) is a Rust-based web service that retrieves, processes, and caches data on kratom bans. The application fetches CSV data from a publicly accessible Google Sheet, converts it into JSON, and serves it via a dynamic web interface built using Actix Web. Developed by [saintpetejackboy](https://github.com/saintpetejackboy), this project offers interactive search, drill-down views, and supplemental information to help users explore banned areas.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
-- **No Results by Default:**  
-  The page initially shows no banned areas. If no matches are found, a “good news” message is displayed.
+- **CSV Data Fetching & Processing:**  
+  Retrieves data from a public Google Sheet (via CSV export) and converts it to JSON.
+  
+- **Caching Mechanism:**  
+  Implements a caching system that stores processed JSON data for 12 hours to reduce unnecessary network requests.
 
-- **Search by City, County, or Zip:**  
-  Use the search input (and optionally the state dropdown) to check if your area has any bans.
+- **Dynamic API Endpoints:**  
+  - **`/data`**: Serves the processed JSON data of banned areas.
+  - **`/supplemental`**: Serves supplemental JSON information (links, previews, tags) from a local file.
+  - **`/`**: Serves the main interactive HTML/JS/CSS page.
 
-- **Match Summary Card:**  
-  When a match is found, a card summarizes which field(s) (e.g., City, Zip) produced a match.
+- **Interactive Frontend:**  
+  A modern, responsive web interface with:
+  - A search panel that auto-updates the state selection based on user input.
+  - Drill-down functionality to view banned areas by state, city, and zip code.
+  - Animated visual elements and smooth transitions.
 
-- **Supplemental Information:**  
-  Supplemental links with previews (images or emojis) are shown when the search term matches tags from a supplemental configuration file (`supplemental.json`).
+## Installation
+
+### Prerequisites
+
+- [Rust](https://www.rust-lang.org/tools/install) (Edition 2018 or later)
+- Cargo (comes with Rust)
+- A stable internet connection (to fetch CSV data from Google Sheets)
+
+### Clone the Repository
+
+Clone the project repository to your local machine:
+
+```bash
+git clone https://github.com/saintpetejackboy/GKC-Kratom-Bans.git
+cd GKC-Kratom-Bans
+```
+
+### Build the Project
+
+Build the project in release mode for optimized performance:
+
+```bash
+cargo build --release
+```
+
+## Usage
+
+### Running the Server
+
+Start the server using Cargo:
+
+```bash
+cargo run --release
+```
+
+By default, the server will start at [http://127.0.0.1:7001/](http://127.0.0.1:7001/). Open this URL in your web browser to access the application.
+
+### How It Works
+
+1. **Data Fetching & Caching:**  
+   The backend fetches CSV data from a public Google Sheet, auto-detects the CSV delimiter, converts it to JSON, and caches it locally in `data_cache.json` for 12 hours.
+
+2. **Supplemental Data:**  
+   Additional info (e.g., links, previews, tags) is loaded from a `supplemental.json` file and served through the `/supplemental` endpoint.
+
+3. **Interactive User Interface:**  
+   The main page (`/`) presents a search panel and dynamic results area where users can:
+   - Search by state, city, or zip code.
+   - Auto-update the state dropdown based on the search input.
+   - Drill down from state to city to view banned zip codes.
+   - View supplemental information with clickable links and previews.
+
+## API Endpoints
+
+- **GET `/`**  
+  Returns the main HTML page that includes the complete interactive UI.
+
+- **GET `/data`**  
+  Returns processed JSON data representing banned areas. This data is fetched from the Google Sheet, processed, and cached.
+
+- **GET `/supplemental`**  
+  Returns supplemental JSON data from the local `supplemental.json` file.
 
 ## Project Structure
 
 ```
-GKCSearch/
-├── Cargo.toml
-├── src/
-│   └── main.rs
-├── supplemental.json
-└── README.md
+.
+├── Cargo.toml             # Project manifest with dependencies
+├── src
+│   └── main.rs            # Main Rust source file containing all server logic and endpoints
+├── supplemental.json      # Supplemental information used by the `/supplemental` endpoint
+└── data_cache.json        # Cached JSON data (generated automatically on first fetch)
 ```
 
-## How It Works
+## Contributing
 
-1. **Data Fetching:**  
-   - The `/data` endpoint fetches and caches CSV data from a Google Sheets URL.
-   - The `/supplemental` endpoint serves supplemental records from `supplemental.json`.
+Contributions are welcome! If you'd like to contribute to **GKC Kratom Bans**, please follow these steps:
 
-2. **Frontend:**  
-   - The main page (`/`) loads a dark‑mode HTML page with a search input and state dropdown.
-   - No results are shown until a search is performed.
-   - When the user types in the search box (or selects a state), the client‑side script filters the data and displays:
-     - A summary card if banned areas are found (including which fields matched).
-     - Supplemental links (if any) based on matching tags.
-   - If nothing is found, a “No kratom bans found in your area 🎉” message is shown.
-
-## Getting Started
-
-### Prerequisites
-
-- [Rust](https://rustup.rs) (with Cargo)
-- Internet connectivity (for fetching data from Google Sheets)
-  
-### Running Locally
-
-1. Clone the repository (or create a new one as shown below).
-2. Build and run the server:
-
+1. **Fork the repository.**
+2. **Create a new branch:**  
    ```bash
-   cargo run
+   git checkout -b feature/your-feature-name
    ```
+3. **Commit your changes:**  
+   ```bash
+   git commit -am "Add some feature"
+   ```
+4. **Push to your branch:**  
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Create a Pull Request:**  
+   Open a pull request detailing your changes.
 
-3. Open your browser and navigate to [http://localhost:7001/](http://localhost:7001/).
+Please ensure your code adheres to the project's style guidelines and includes relevant tests.
+
+## Disclaimer
+
+This service is provided for entertainment purposes only and is **not** a substitute for legal advice. For the most up-to-date legal information, please consult a qualified lawyer.
 
 ## License
-This project is provided as-is for educational and prototyping purposes.
+
+*This project is provided for educational and informational purposes only. Please refer to the LICENSE file for details on licensing (if available), or contact the project owner for more information.*
+
+## Contact
+
+Developed by [saintpetejackboy](https://github.com/saintpetejackboy).  
+For any questions, issues, or suggestions, please open an issue in the repository or contact me directly via GitHub.

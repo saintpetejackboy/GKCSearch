@@ -5,8 +5,9 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4"
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-csv = "1.1"
-tokio = { version = "1.28", features = ["fs", "io-util", "macros", "time"] }
+actix-cors = "0.6"
+tokio = { version = "1", features = ["full"] }
 reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+csv = "1.1"

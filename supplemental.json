@@ -1,14 +1,561 @@
 [
   {
-    "tags": ["NY", "New York", "10001"],
-    "title": "NY Kratom Ban Overview",
-    "url": "https://example.com/ny-ban",
+    "State": "AL",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["AL", "Alabama"],
+    "title": "Alabama Kratom Ban Details",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🚫"
+  },
+  {
+    "State": "AR",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["AR", "Arkansas"],
+    "title": "Arkansas Kratom Ban Information",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🚫"
+  },
+  {
+    "State": "IN",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["IN", "Indiana"],
+    "title": "Indiana Kratom Ban Overview",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🚫"
+  },
+  {
+    "State": "RI",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["RI", "Rhode Island"],
+    "title": "Rhode Island Kratom Ban Details",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🚫"
+  },
+  {
+    "State": "VT",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["VT", "Vermont"],
+    "title": "Vermont Kratom Ban Information",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🚫"
+  },
+  {
+    "State": "WI",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["WI", "Wisconsin"],
+    "title": "Wisconsin Kratom Ban Overview",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🚫"
+  },
+  {
+    "State": "CA",
+    "City": "San Diego",
+    "Zip": "00000",
+    "tags": ["CA", "California", "San Diego"],
+    "title": "San Diego Kratom Ban Details",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🌴"
+  },
+  {
+    "State": "CO",
+    "City": "Denver",
+    "Zip": "00000",
+    "tags": ["CO", "Colorado", "Denver"],
+    "title": "Denver Kratom Ban Information",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🏔️"
+  },
+  {
+    "State": "FL",
+    "City": "Sarasota",
+    "Zip": "00000",
+    "tags": ["FL", "Florida", "Sarasota"],
+    "title": "Sarasota County Kratom Ban Overview",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🌴"
+  },
+  {
+    "State": "IL",
+    "City": "Jerseyville",
+    "Zip": "00000",
+    "tags": ["IL", "Illinois", "Jerseyville"],
+    "title": "Jerseyville Kratom Ban Details",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🏙️"
+  },
+  {
+    "State": "MS",
+    "City": "Union County",
+    "Zip": "00000",
+    "tags": ["MS", "Mississippi", "Union County"],
+    "title": "Union County Kratom Ban Information",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🏞️"
+  },
+  {
+    "State": "TN",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["TN", "Tennessee"],
+    "title": "Tennessee Kratom Regulation Overview",
+    "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+    "preview": "🎸"
+  },
+  {
+    "State": "NY",
+    "City": "New York",
+    "Zip": "00000",
+    "tags": ["NY", "New York"],
+    "title": "New York City Kratom Legal Challenges",
+    "url": "https://nypost.com/2024/09/14/us-news/cafe-serving-kava-and-kratom-sues-nyc-for-shutting-it-down-over-dangerous-teas/",
     "preview": "🗽"
   },
   {
-    "tags": ["CA", "California", "90001"],
-    "title": "California Kratom Ban Details",
-    "url": "https://example.com/ca-ban",
-    "preview": "https://via.placeholder.com/50"
-  }
+    "State": "ID",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["ID", "Idaho"],
+    "title": "Idaho Kratom Legal Case",
+    "url": "https://www.thetimes.co.uk/article/man-sues-after-wife-dies-from-drinking-harmless-kratom-herbal-tea-cncvbxqfb",
+    "preview": "⚖️"
+  },
+  {
+    "State": "GA",
+    "City": "Rome",
+    "Zip": "00000",
+    "tags": ["GA", "Georgia", "Rome"],
+    "title": "Rome, GA Kratom Ban Discussion",
+    "url": "https://www.northwestgeorgianews.com/rome/news/local/rome-city-commission-considers-kratom-ban/article_6f1a02e2-0f75-11ee-b7b5-67a90a8c95bf.html",
+    "preview": "⚖️"
+  },
+  {
+    "State": "PA",
+    "City": "Pittsburgh",
+    "Zip": "00000",
+    "tags": ["PA", "Pennsylvania", "Pittsburgh"],
+    "title": "Pittsburgh Kratom Ban Proposal",
+    "url": "https://triblive.com/local/pittsburgh-officials-weigh-kratom-ban-after-federal-warning/",
+    "preview": "🏙️"
+  },
+  {
+    "State": "LA",
+    "City": "Ascension Parish",
+    "Zip": "00000",
+    "tags": ["LA", "Louisiana", "Ascension Parish"],
+    "title": "Ascension Parish Kratom Ban Vote",
+    "url": "https://www.wafb.com/2023/07/12/ascension-parish-officials-vote-ban-kratom/",
+    "preview": "🗳️"
+  },
+  {
+    "State": "MI",
+    "City": "Macomb County",
+    "Zip": "00000",
+    "tags": ["MI", "Michigan", "Macomb County"],
+    "title": "Macomb County Discusses Kratom Regulations",
+    "url": "https://www.detroitnews.com/story/news/local/macomb-county/2023/04/10/macomb-officials-consider-kratom-restrictions/70094374007/",
+    "preview": "⚖️"
+  },
+  {
+    "State": "NC",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["NC", "North Carolina"],
+    "title": "North Carolina House Introduces Kratom Bill",
+    "url": "https://www.newsobserver.com/news/politics-government/article271211032.html",
+    "preview": "📜"
+  },
+  {
+    "State": "TX",
+    "City": "San Antonio",
+    "Zip": "00000",
+    "tags": ["TX", "Texas", "San Antonio"],
+    "title": "San Antonio Considers Kratom Restrictions",
+    "url": "https://www.ksat.com/news/local/2023/05/21/san-antonio-officials-to-debate-kratom-sales-restrictions/",
+    "preview": "🌵"
+  },
+  {
+    "State": "KY",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["KY", "Kentucky"],
+    "title": "Kentucky Senate Debates Kratom Ban",
+    "url": "https://www.kentucky.com/news/state/kentucky/article273611987.html",
+    "preview": "🏇"
+  },
+  {
+    "State": "MN",
+    "City": "Minneapolis",
+    "Zip": "00000",
+    "tags": ["MN", "Minnesota", "Minneapolis"],
+    "title": "Minneapolis City Council Weighs Kratom Laws",
+    "url": "https://www.startribune.com/minneapolis-city-council-kratom-ban-discussion/600285043/",
+    "preview": "❄️"
+  },
+  {
+    "State": "OR",
+    "City": "Portland",
+    "Zip": "00000",
+    "tags": ["OR", "Oregon", "Portland"],
+    "title": "Portland Kratom Regulations Tighten",
+    "url": "https://www.oregonlive.com/news/2023/08/oregon-cracks-down-on-kratom-sales.html",
+    "preview": "🌲"
+  },
+  {
+    "State": "SC",
+    "City": "Charleston",
+    "Zip": "00000",
+    "tags": ["SC", "South Carolina", "Charleston"],
+    "title": "Charleston Officials Review Kratom Sale Restrictions",
+    "url": "https://www.postandcourier.com/charleston-county-weighs-kratom-sales-regulations/article_34df02f6-2df9-11ed-bfb7-df4b8cf25682.html",
+    "preview": "🌊"
+  },
+  {
+    "State": "NV",
+    "City": "Las Vegas",
+    "Zip": "00000",
+    "tags": ["NV", "Nevada", "Las Vegas"],
+    "title": "Las Vegas Considers Kratom Age Restrictions",
+    "url": "https://www.reviewjournal.com/news/politics-and-government/clark-county-may-restrict-kratom-sales-to-adults-21-and-over/",
+    "preview": "🎰"
+  },
+  {
+    "State": "MT",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["MT", "Montana"],
+    "title": "Montana Legislature Introduces Kratom Bill",
+    "url": "https://helenair.com/news/state-and-regional/govt-and-politics/montana-lawmakers-review-kratom-legislation/article_d903ad38-02a3-11ee-8b5a-c31fefb9db3a.html",
+    "preview": "🏔️"
+  },
+  {
+    "State": "MA",
+    "City": "Boston",
+    "Zip": "00000",
+    "tags": ["MA", "Massachusetts", "Boston"],
+    "title": "Boston Health Officials Push Kratom Ban",
+    "url": "https://www.bostonherald.com/2023/06/21/boston-public-health-kratom-restrictions/",
+    "preview": "🏛️"
+  },
+  {
+    "State": "WA",
+    "City": "Seattle",
+    "Zip": "00000",
+    "tags": ["WA", "Washington", "Seattle"],
+    "title": "Seattle Reviews Kratom Safety Regulations",
+    "url": "https://www.seattletimes.com/seattle-news/public-health-officials-discuss-kratom-risks/",
+    "preview": "☕"
+  },
+  {
+    "State": "MS",
+    "City": "Alcorn County",
+    "Zip": "00000",
+    "tags": ["MS", "Mississippi", "Alcorn County"],
+    "title": "Alcorn County Kratom Ban Details",
+    "url": "https://www.wtva.com/news/local/alcorn-county-bans-kratom/article_4f3f12b2-1b79-11ed-98a4-7f8c0dfb6dbb.html",
+    "preview": "🚫"
+  },
+  {
+    "State": "MS",
+    "City": "Tishomingo County",
+    "Zip": "00000",
+    "tags": ["MS", "Mississippi", "Tishomingo County"],
+    "title": "Tishomingo County Kratom Ban Information",
+    "url": "https://www.djournal.com/news/tishomingo-county-bans-kratom-sales/article_5d29ff32-4763-11ed-b2a1-43fa4c3b8477.html",
+    "preview": "🚫"
+  },
+  {
+    "State": "MS",
+    "City": "Monroe County",
+    "Zip": "00000",
+    "tags": ["MS", "Mississippi", "Monroe County"],
+    "title": "Monroe County Considers Kratom Ban",
+    "url": "https://www.wcbi.com/monroe-county-officials-debate-kratom-ban/",
+    "preview": "⚖️"
+  },
+  {
+    "State": "IL",
+    "City": "Alton",
+    "Zip": "00000",
+    "tags": ["IL", "Illinois", "Alton"],
+    "title": "Alton, IL Kratom Ban Passed",
+    "url": "https://www.thetelegraph.com/news/article/alton-passes-kratom-ban-18312476.php",
+    "preview": "🚫"
+  },
+  {
+    "State": "FL",
+    "City": "Boca Raton",
+    "Zip": "00000",
+    "tags": ["FL", "Florida", "Boca Raton"],
+    "title": "Boca Raton Considers Kratom Sales Restrictions",
+    "url": "https://www.palmbeachpost.com/story/news/local/2023/06/15/boca-raton-kratom-sales-restrictions/70306768007/",
+    "preview": "🌴"
+  },
+  {
+    "State": "NC",
+    "City": "Wilmington",
+    "Zip": "00000",
+    "tags": ["NC", "North Carolina", "Wilmington"],
+    "title": "Wilmington Officials Propose Kratom Ban",
+    "url": "https://www.wect.com/2023/08/14/wilmington-city-council-proposes-kratom-ban/",
+    "preview": "⚖️"
+  },
+  {
+    "State": "OH",
+    "City": "Columbus",
+    "Zip": "00000",
+    "tags": ["OH", "Ohio", "Columbus"],
+    "title": "Columbus, OH Kratom Regulation Debate",
+    "url": "https://www.dispatch.com/story/news/politics/2023/07/20/columbus-city-council-weighs-kratom-ban/",
+    "preview": "🏙️"
+  },
+  {
+    "State": "KS",
+    "City": "Wichita",
+    "Zip": "00000",
+    "tags": ["KS", "Kansas", "Wichita"],
+    "title": "Wichita, KS Reviewing Kratom Safety Concerns",
+    "url": "https://www.kansas.com/news/local/article271419282.html",
+    "preview": "🌾"
+  },
+  {
+    "State": "MO",
+    "City": "St. Charles County",
+    "Zip": "00000",
+    "tags": ["MO", "Missouri", "St. Charles County"],
+    "title": "St. Charles County Bans Kratom Sales",
+    "url": "https://www.stltoday.com/news/local/st-charles-county-passes-kratom-ban/article_2b7c5f44-2f7d-11ee-9434-93f92fbe9c7a.html",
+    "preview": "🚫"
+  },
+  {
+    "State": "VA",
+    "City": "Richmond",
+    "Zip": "00000",
+    "tags": ["VA", "Virginia", "Richmond"],
+    "title": "Virginia Lawmakers Propose Kratom Restrictions",
+    "url": "https://www.richmond.com/news/local/government-politics/virginia-house-passes-bill-to-restrict-kratom-sales/",
+    "preview": "🏛️"
+  },
+  {
+    "State": "AZ",
+    "City": "Phoenix",
+    "Zip": "00000",
+    "tags": ["AZ", "Arizona", "Phoenix"],
+    "title": "Phoenix Council Discusses Kratom Health Concerns",
+    "url": "https://www.azcentral.com/story/news/local/phoenix/2023/04/18/phoenix-council-considers-kratom-sales-restrictions/",
+    "preview": "🌵"
+  },
+  {
+    "State": "NJ",
+    "City": "Trenton",
+    "Zip": "00000",
+    "tags": ["NJ", "New Jersey", "Trenton"],
+    "title": "New Jersey Officials Push Kratom Regulations",
+    "url": "https://www.nj.com/politics/2023/03/new-jersey-bill-seeks-to-regulate-kratom-sales.html",
+    "preview": "🏙️"
+  },
+  {
+    "State": "OK",
+    "City": "Oklahoma City",
+    "Zip": "00000",
+    "tags": ["OK", "Oklahoma", "Oklahoma City"],
+    "title": "Oklahoma City Considers Kratom Restrictions",
+    "url": "https://www.oklahoman.com/story/news/2023/07/10/oklahoma-city-discusses-kratom-ban/",
+    "preview": "🛢️"
+  },
+  {
+    "State": "WV",
+    "City": "Charleston",
+    "Zip": "00000",
+    "tags": ["WV", "West Virginia", "Charleston"],
+    "title": "West Virginia Moves Toward Kratom Regulation",
+    "url": "https://www.wvgazettemail.com/news/west-virginia-lawmakers-weigh-kratom-ban/article_07d76bd6-3c8a-11ee-9c72-474bc8a39a44.html",
+    "preview": "⛰️"
+  },
+  {
+    "State": "SD",
+    "City": "Sioux Falls",
+    "Zip": "00000",
+    "tags": ["SD", "South Dakota", "Sioux Falls"],
+    "title": "Sioux Falls Officials Review Kratom Regulations",
+    "url": "https://www.argusleader.com/story/news/local/2023/06/01/sioux-falls-to-review-kratom-sales-and-safety/",
+    "preview": "🌾"
+  },
+  {
+    "State": "DE",
+    "City": "Dover",
+    "Zip": "00000",
+    "tags": ["DE", "Delaware", "Dover"],
+    "title": "Delaware Legislature Considers Kratom Ban",
+    "url": "https://www.delawareonline.com/story/news/local/2023/05/12/delaware-lawmakers-debate-kratom-ban/",
+    "preview": "🏛️"
+  },
+  {
+    "State": "ND",
+    "City": "Fargo",
+    "Zip": "00000",
+    "tags": ["ND", "North Dakota", "Fargo"],
+    "title": "Fargo City Officials Debate Kratom Ban",
+    "url": "https://www.inforum.com/news/fargo-moorhead/fargo-council-considers-kratom-ban",
+    "preview": "❄️"
+  },
+  {
+    "State": "MO",
+    "City": "Jefferson County",
+    "Zip": "00000",
+    "tags": ["MO", "Missouri", "Jefferson County"],
+    "title": "Jefferson County Bans Kratom Sales",
+    "url": "https://www.ksdk.com/article/news/local/jefferson-county-bans-kratom-sales/63-2a8bdf7e-5d64-4c4b-a0c5-123e9f4b2a32",
+    "preview": "🚫"
+  },
+  {
+    "State": "GA",
+    "City": "Savannah",
+    "Zip": "00000",
+    "tags": ["GA", "Georgia", "Savannah"],
+    "title": "Savannah Officials Review Kratom Restrictions",
+    "url": "https://www.savannahnow.com/story/news/local/2023/09/08/savannah-lawmakers-review-kratom-ban/70711200007/",
+    "preview": "⚖️"
+  },
+  {
+    "State": "IA",
+    "City": "Des Moines",
+    "Zip": "00000",
+    "tags": ["IA", "Iowa", "Des Moines"],
+    "title": "Des Moines City Council Considers Kratom Ban",
+    "url": "https://www.desmoinesregister.com/story/news/politics/2023/07/21/iowa-city-weighs-kratom-sales-ban/70391900007/",
+    "preview": "🌽"
+  },
+  {
+    "State": "ME",
+    "City": "Portland",
+    "Zip": "00000",
+    "tags": ["ME", "Maine", "Portland"],
+    "title": "Portland, Maine Reviews Kratom Regulation",
+    "url": "https://www.pressherald.com/2023/10/04/portland-maine-kratom-restriction-bill-discussed/",
+    "preview": "🌊"
+  },
+  {
+    "State": "WY",
+    "City": "Cheyenne",
+    "Zip": "00000",
+    "tags": ["WY", "Wyoming", "Cheyenne"],
+    "title": "Cheyenne Officials Debate Kratom Restrictions",
+    "url": "https://www.wyomingnews.com/news/cheyenne-considers-kratom-ban/",
+    "preview": "🏔️"
+  },
+  {
+    "State": "NE",
+    "City": "Lincoln",
+    "Zip": "00000",
+    "tags": ["NE", "Nebraska", "Lincoln"],
+    "title": "Lincoln Lawmakers Push for Kratom Regulations",
+    "url": "https://journalstar.com/news/state-and-regional/nebraska-lawmakers-review-kratom-legislation/article_c4a88c2a-6e39-11ee-8c8c-3799b109e9e1.html",
+    "preview": "🌾"
+  },
+  {
+    "State": "ND",
+    "City": "Bismarck",
+    "Zip": "00000",
+    "tags": ["ND", "North Dakota", "Bismarck"],
+    "title": "Bismarck Considers Kratom Restrictions",
+    "url": "https://www.bismarcktribune.com/news/local/bismarck-council-discusses-kratom-ban/article_eea7a4c2-759f-11ee-bb9c-5b27a5e4b274.html",
+    "preview": "❄️"
+  },
+  {
+    "State": "NM",
+    "City": "Albuquerque",
+    "Zip": "00000",
+    "tags": ["NM", "New Mexico", "Albuquerque"],
+    "title": "Albuquerque City Council Reviews Kratom Ban Proposal",
+    "url": "https://www.abqjournal.com/2023/07/15/albuquerque-officials-consider-kratom-regulations.html",
+    "preview": "🌵"
+  },
+  {
+    "State": "HI",
+    "City": "Honolulu",
+    "Zip": "00000",
+    "tags": ["HI", "Hawaii", "Honolulu"],
+    "title": "Honolulu Moves to Restrict Kratom Sales",
+    "url": "https://www.staradvertiser.com/2023/05/10/hawaii-lawmakers-push-kratom-restrictions/",
+    "preview": "🌺"
+  },
+  {
+    "State": "AK",
+    "City": "Anchorage",
+    "Zip": "00000",
+    "tags": ["AK", "Alaska", "Anchorage"],
+    "title": "Anchorage Council Discusses Kratom Sales Ban",
+    "url": "https://www.adn.com/alaska-news/2023/08/19/anchorage-may-limit-kratom-sales/",
+    "preview": "❄️"
+  },
+  {
+    "State": "MS",
+    "City": "Laurel",
+    "Zip": "00000",
+    "tags": ["MS", "Mississippi", "Laurel"],
+    "title": "Laurel City Council Votes to Ban Kratom",
+    "url": "https://www.wdam.com/video/2025/02/05/city-council-votes-ban-kratom-laurel/",
+    "preview": "🚫"
+  },
+  {
+    "State": "IL",
+    "City": "Godfrey",
+    "Zip": "00000",
+    "tags": ["IL", "Illinois", "Godfrey"],
+    "title": "Godfrey Approves Kratom Ban",
+    "url": "https://www.riverbender.com/news/details/godfrey-approves-kratom-ban-78641.cfm",
+    "preview": "🚫"
+  },
+  {
+    "State": "ND",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["ND", "North Dakota"],
+    "title": "North Dakota House Bill Seeks to Reclassify Kratom",
+    "url": "https://www.minotdailynews.com/news/local-news/2025/01/house-bill-seeks-to-reclassify-herbal-substance-kratom/",
+    "preview": "📜"
+  },
+  {
+    "State": "MS",
+    "City": "",
+    "Zip": "00000",
+    "tags": ["MS", "Mississippi"],
+    "title": "Mississippi Legislature to Consider Kratom Ban in 2025 Session",
+    "url": "https://www.wlbt.com/2024/12/17/expect-see-another-attempt-restrict-or-ban-kratom-2025-legislative-session/",
+    "preview": "⚖️"
+  },
+{
+  "State": "NH",
+  "City": "Franklin",
+  "Zip": "00000",
+  "tags": ["NH", "New Hampshire", "Franklin"],
+  "title": "Franklin Kratom Ban Details",
+  "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+  "preview": "🚫"
+},
+{
+  "State": "CO",
+  "City": "Monument",
+  "Zip": "00000",
+  "tags": ["CO", "Colorado", "Monument"],
+  "title": "Monument Kratom Ban Information",
+  "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+  "preview": "🚫"
+},
+{
+  "State": "CO",
+  "City": "Parker",
+  "Zip": "00000",
+  "tags": ["CO", "Colorado", "Parker"],
+  "title": "Parker Kratom Ban Overview",
+  "url": "https://www.bicyclehealth.com/blog/kratom-statistics-legality-by-state",
+  "preview": "🚫"
+}
+
 ]
