@@ -59,33 +59,5 @@ GKCSearch/
 
 3. Open your browser and navigate to [http://localhost:7001/](http://localhost:7001/).
 
-## Creating and Pushing to GitHub from the CLI
-
-Open your terminal in the project folder and run the following commands:
-
-```bash
-# Initialize a new git repository (if not already initialized)
-git init
-
-# Add all files to the repository
-git add .
-
-# Commit the files
-git commit -m "Initial commit for GKCSearch MVP"
-
-# Create a new public repository on GitHub using the GitHub CLI (make sure you have 'gh' installed)
-gh repo create GKCSearch --public --source=. --remote=origin
-
-# Push the commit to the master branch on GitHub
-git push -u origin master
-```
-
-If you prefer not to use the GitHub CLI, you can manually create a repository named **GKCSearch** on GitHub and then run:
-
-```bash
-git remote add origin git@github.com:saintpetejackboy/GKCSearch.git
-git push -u origin master
-```
-
 ## License
 This project is provided as-is for educational and prototyping purposes.
